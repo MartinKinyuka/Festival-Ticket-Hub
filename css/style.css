@@ -32,3 +32,6 @@ body {
 	display: flex;
 	padding-top: 10px;
 }
+.ticket-delivery {
+	display: flex;
+}
