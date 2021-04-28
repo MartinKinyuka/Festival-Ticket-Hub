@@ -23,3 +23,8 @@ body {
 	border-top: 2px solid rgb(219, 210, 210);
 	border-bottom: 2px solid rgb(88, 87, 87);
 }
+.detail {
+	color: #6b160b;
+	font-style: italic;
+	font-weight: 900;
+}
