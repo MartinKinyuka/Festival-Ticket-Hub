@@ -20,6 +20,11 @@ body {
 	margin: 10px 10px 15px 10px;
 	float: right;
 }
-.row .ad-block {
-	
+.minHead {
+	background-color: #F0F0F0;
+	display: flex;
+	padding: 7px;
+	padding-top: 10px;
+	border-top: 2px solid rgb(219, 210, 210);
+	border-bottom: 2px solid rgb(88, 87, 87);
 }
