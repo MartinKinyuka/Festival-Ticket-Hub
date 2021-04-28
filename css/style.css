@@ -28,3 +28,7 @@ body {
 	font-style: italic;
 	font-weight: 900;
 }
+.cart {
+	display: flex;
+	padding-top: 10px;
+}
