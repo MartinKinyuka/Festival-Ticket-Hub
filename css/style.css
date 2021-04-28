@@ -1,0 +1,65 @@
+body{
+  height: 100%; /** Michael and Gabriel change the height to 100% to ensure uniform gradient and set background to no repeat**/
+  background-color: #EC2D01; 
+  background-image: linear-gradient(to bottom right, #EC2D01,#FFAB0F,#FFF600);
+  background-repeat: no-repeat;
+}
+#main h1{
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 900;
+  margin-top: 50px;
+}
+#main h3{
+  text-align: center;
+}
+#gallery{
+  text-align: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffae42;
+  
+}
+#gallery h1{
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 500;
+  margin-top: 50px;
+}
+#top{
+  width:1270px;
+  
+}
+#colEvents img{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#colEvents h4{
+  margin-top: 20px;
+  background-color:#FFAB0F;
+}
+#contacts{
+  border-top: 1px solid black;
+  margin-top: 10px;
+  background-color: #ffae42;
+}
+
+#socialMediaLinks{
+  text-align: center;
+  margin-top: 50px;
+}
+#bookingsContact{
+  float: right;
+  position: relative;
+  bottom: 180px;
+}
+#complaintsContact{
+  position: relative;
+  bottom: 70px;
+}
+#copyright{
+  text-align: center;
+  clear: both;
+}
