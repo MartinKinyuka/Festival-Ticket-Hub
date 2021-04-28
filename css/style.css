@@ -7,18 +7,13 @@ body {
 	margin: 10px 0;
 	padding: 5px;
 }
-.header .ad-block {
+.header {
 	background-color: #F0F0F0;
-	width: 60%;
-	float: right;
-	height: 50px;
-	margin: 10px;
+	margin-bottom: 20px;
+	box-shadow: 5px 10px 50px;
 }
-.left-sidebar .ad-block {
-	background-color: #F0F0F0;
-	height: 80px;
-	margin: 10px 10px 15px 10px;
-	float: right;
+.content-bar {
+	padding: 100px;
 }
 .minHead {
 	background-color: #F0F0F0;
