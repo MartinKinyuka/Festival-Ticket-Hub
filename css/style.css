@@ -1,9 +1,22 @@
 body {
-	background-color: #cc7a66;
+	background-color: #f06e4d;
 	font-family: Arial, Helvetica, sans-serif;
 }
 .bg-white {
 	background-color: #FFF;
 	margin: 10px 0;
 	padding: 5px;
+}
+.header .ad-block {
+	background-color: #F0F0F0;
+	width: 60%;
+	float: right;
+	height: 50px;
+	margin: 10px;
+}
+.content-bar .ad-block {
+	background-color: #F0F0F0;
+	height: 80px;
+	margin: 10px 10px 15px 10px;
+	float: right;
 }
