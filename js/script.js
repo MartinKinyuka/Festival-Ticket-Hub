@@ -1,3 +1,31 @@
+
+$(document).ready(function(){
+  $("#one").mouseenter(function(){
+    $("#oneDescription").show();
+    });
+    $("#one").mouseleave(function(){
+      $("#oneDescription").hide();
+      });
+  $("#two").mouseenter(function(){
+    $("#twoDescription").show();
+  })
+  $("#two").mouseleave(function(){
+    $("#twoDescription").hide();
+  })
+  $("#three").mouseenter(function(){
+    $("#threeDescription").show();
+  })
+  $("#three").mouseleave(function(){
+    $("#threeDescription").hide();
+  })
+  $("#four").mouseenter(function(){
+    $("#fourDescription").show();
+  })
+  $("#four").mouseleave(function(){
+    $("#fourDescription").hide();
+  })
+
+})
 var slideIndex = 0;
 showSlides();
 
@@ -17,3 +45,4 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); 
 }
+
