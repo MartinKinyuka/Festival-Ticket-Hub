@@ -35,3 +35,6 @@ body {
 .ticket-delivery {
 	display: flex;
 }
+.sumTotal {
+	display: flex;
+}
