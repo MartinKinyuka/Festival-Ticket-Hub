@@ -1,0 +1,40 @@
+body {
+	background-color: #f38237;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bg-white {
+	background-color: #FFF;
+	margin: 10px 0;
+	padding: 5px;
+}
+.header {
+	background-color: #F0F0F0;
+	margin-bottom: 20px;
+	box-shadow: 5px 10px 50px;
+}
+.content-bar {
+	padding: 100px;
+}
+.minHead {
+	background-color: #F0F0F0;
+	display: flex;
+	padding: 7px;
+	padding-top: 10px;
+	border-top: 2px solid rgb(219, 210, 210);
+	border-bottom: 2px solid rgb(88, 87, 87);
+}
+.detail {
+	color: #6b160b;
+	font-style: italic;
+	font-weight: 900;
+}
+.cart {
+	display: flex;
+	padding-top: 10px;
+}
+.ticket-delivery {
+	display: flex;
+}
+.sumTotal {
+	display: flex;
+}
