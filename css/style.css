@@ -18,23 +18,26 @@ body{
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-radius: 5px;
-  background-color: #ffae42;
-  
+  background-color: #ffcc00;
+  margin-right: 0%;
 }
+
 #gallery h1{
   font-family: 'Calligraffitti', cursive;
   font-weight: 500;
   margin-top: 50px;
+  
 }
 #top{
   width:1270px;
   
 }
 #colEvents img{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 50px;
+  padding: 20px;
 }
 #colEvents h4{
   margin-top: 20px;
@@ -42,8 +45,8 @@ body{
 }
 #contacts{
   border-top: 1px solid black;
-  margin-top: 10px;
-  background-color: #ffae42;
+  margin-top: 300px;
+  background-color: #ffcc00;
 }
 
 #socialMediaLinks{
@@ -63,3 +66,46 @@ body{
   text-align: center;
   clear: both;
 }
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:lightseagreen;
+  border-radius: 50%;
+  display: inline-block;
+  transition:background-color 0.5s ease;
+}
+.number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+#dot{
+  text-align: center;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.active {
+  background-color:white;
+}
+
