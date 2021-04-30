@@ -5,89 +5,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
-<body class="body">
-  <h1 class="font">
-    #Color festival
-  </h1>
-  <div class="rowname">
-    <h2>description of what will happen to the page</h2>
-    <br>
-    <br>
-    <div class="bgft"> 
-      <img src="image/bgft.jpg" width="80%" height="10%">
+<body>
+  <img src="images/festivaltickethublogo.png">
+  <div id="home"><a href="index.html">Home</a></div>
+  <div class="row">
+    <div class="col-md-2">
+      <img src="images/holiphoto.jpeg">
+    </div>
+    <div class="col-md-10"> 
+      <p id="desc">There are varying accounts of Holi’s origin mentioned in several works of ancient Indian literature. According to one popular version of the story, an evil king became so powerful that he forced his subjects to worship him as their god. But to the king’s ire, his son Prahlada continued to be an ardent devotee of the Hindu deity Lord Vishnu. The angry king plotted with his sister, Holika, to kill his son. Holika, who was immune to fire, tricked Prahlada to sit in a pyre with her. When the pyre was lit, the boy’s devotion to Lord Vishnu helped him walk away unscathed while Holika, from whom the festival derives its name, was burned to death despite her immunity.
+        Holi has become increasingly popular outside of India — in large part because of the millions of Indians and other South Asians living all over the world. As with Diwali, another Indian festival, communities with South Asian heritage living abroad often get together to celebrate Holi.</p>
     </div>
       
-      
-  </div>
-  <div class="row2">
-    <div class="form">
-      <table class="center">
-        <tr>
-          <th>BOOK TICKETS TODAY</th>
-          <th>INFO</th> 
-        </tr>
-       
-        <tr>
-          <td> 
-            <button>Book Tickets</button>
-
-            <br>
-            <br>
-            <img src="image/bgside.jpg" alt="girl in a color festival" width="300px" height="400px">
-            <td class="hide">
-
-            </td>
-          </td>
-          <td>
-            <br>
-            Holi has been celebrated in the Indian subcontinent for centuries, with poems documenting celebrations dating back to the 4th century CE. It marks the beginning of spring after a long winter, symbolic of the triumph of good over evil. It is celebrated in March, corresponding to the Hindu calendar month of Phalguna. In 2020, Holi begins March 10.
-            <br>
-            <br>
-            There are varying accounts of Holi’s origin mentioned in several works of ancient Indian literature. According to one popular version of the story, an evil king became so powerful that he forced his subjects to worship him as their god. But to the king’s ire, his son Prahlada continued to be an ardent devotee of the Hindu deity Lord Vishnu. The angry king plotted with his sister, Holika, to kill his son. Holika, who was immune to fire, tricked Prahlada to sit in a pyre with her. When the pyre was lit, the boy’s devotion to Lord Vishnu helped him walk away unscathed while Holika, from whom the festival derives its name, was burned to death despite her immunity.
-            Holi has become increasingly popular outside of India — in large part because of the millions of Indians and other South Asians living all over the world. As with Diwali, another Indian festival, communities with South Asian heritage living abroad often get together to celebrate Holi.
-              <br>
-              <br>
-            “We want the future generation to be connected to the culture back home,” says Minal Jaiswal, who moved to London from Mumbai in 2003. Jaiswal organizes a not-for-profit Holi event every year for London’s South Asian community, which features dance performances and short plays on the story behind Holi. “Celebrating as a community helps parents show their children what this festival stands for.”
-              <br>
-              <br>
-            However, some commercial Holi events have faced criticism of cultural appropriation. Many have complained about the gimmicky nature of some events and “color marathons” organized in the U.S. and Europe. Critics accuse organizers of co-opting the famous colored powder used in Holi, while ignoring the religious significance of the festival and turning it into just another raucous party.
-          </td>
-        </tr>
-        <tr>
-          <td>
-            For more details contact us on :0790509283
-            <br>
-            or
-            <br>
-            send us an email via: gabriel.makumi@student.moringaschool.com
-            <br>
-            PLEASE NOTE:
-            <br>
-            Here THE PRICE YOU SEE IS THE PRICE YOU PAY!! - All our Prices are Including VAT plus There are no extra Hidden costs, service Charges, Buyers Fees or Sellers Fees!
-
-          </td>
-        </tr>
-      </table>
-       
-
-     </table>
+    <div class="row">
+      <div class="col" id="bookTickets">
+      <h1>BOOK TICKETS TODAY</h1>
+      <a href="payment.html"><input id="completeOrder" type="button" name="process-order" value="BUY TICKETS" class="btn btn-success"/></a>
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <form id="ticket" style="width:300px; margin:auto">
+          <label>Select your ticket</label>
+          <select id="size" name="size" class="form-control">
+            <option id="regular" data-pick="regular" value="1000">Regular</option>
+            <option id="vip" data-pick="vip"value="2000">VIP</option>
+            <option id="vvip" data-pick="vvip"value="5000">VVIP</option>
+          </select>
+      </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <form id="quantity" style="width:300px; margin:auto">
+          <label>Select number of tickets</label>
+          <select id="size" name="size" class="form-control">
+            <option id="1" data-pick="one" value="1">One</option>
+            <option id="2" data-pick="two"value="2">Two</option>
+            <option id="3" data-pick="three"value="3">Three</option>
+          </select>
+      </form>
+      </div>
+    </div>
+    <div class="row" id="contacts">
+      <div class="col">
+        <footer>
+          <div id="socialMediaLinks">
+           <p>Find Us On Social Media</p>
+           <img src="images/facebook.png" alt="fb">
+           <img src="images/flickr.png" alt="flickr">
+           <img src="images/pinterest.png" alt="pinterest">
+           <img src="images/twitter.png" alt="twitter">
+           <img src="images/you_tube.png" alt="youtube">
+          </div>
+          <div id="complaintsContact">
+            <p>Customer Care</p>
+            <p>Phone Number:0720863632</p>
+            <p>Email:customercare@tickethub.co.ke</p>
+          </div>
+          <div id="bookingsContact">
+            <p>For Bookings and Promotions:</p>
+            <p>Phone Number:0720867345</p>
+            <p>Email:bookings@tickethub.co.ke</p>
+          </div>
+          <div id="copyright">
+           <p>Copyright:Ticket Festival Hub</p>
+           <p>2021</p>
+          </div>
+        </footer>
+      </div>
+
+      
       
 
-  </div>
-    
-  
-
-
-
-
-
-
-  <script src="js/script.js"></script>
-  <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.js"></script>
   
 </body>
 </html>
